@@ -14,17 +14,13 @@
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/AIUBStudentPortal.MvcApplicationPartsAssemblyInfo.cache
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/AIUBStudentPortal.RazorAssemblyInfo.cache
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/AIUBStudentPortal.RazorAssemblyInfo.cs
+/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/AIUBStudentPortal.sourcelink.json
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/scopedcss/bundle/AIUBStudentPortal.styles.css
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/scopedcss/projectbundle/AIUBStudentPortal.bundle.scp.css
-/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/63hlngue80-50bunk4fgf.gz
-/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/rla6hz77mx-7rw6u1fsbs.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/435cj5tw04-b9sayid5wm.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/jbw9bb6ofl-x4xoyna3f4.gz
-/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/zx1udw8var-2q8oftfkuz.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/pkpu4wrq91-61n19gt1b8.gz
-/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/ygyxd4okzw-v4obr2zkpe.gz
-/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/oziqazgz7b-lpffbky3ge.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/alx16m64xg-vyvlyy4kuf.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/s7o2wwo9u8-xtxxf3hu2r.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/i6ox51pex5-bqjiyaj88i.gz
@@ -86,7 +82,6 @@
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/rvfz2rxony-muycvpuwrr.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/fzclbmr12m-87fc7y1x7t.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/he1h5js1hc-mlv21k5csn.gz
-/Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/k0b8atr9bs-uvgehrj1gr.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/5pjvav63zp-t2idtvm6cw.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/compressed/bdajjfxamu-t2idtvm6cw.gz
 /Users/jihan/AIUBStudentPortal/obj/Debug/net9.0/staticwebassets.build.json
