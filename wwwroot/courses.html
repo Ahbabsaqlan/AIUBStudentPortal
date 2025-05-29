@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIUB Student Portal - Courses</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/index.html" class="logo">AIUB<span>Portal</span></a>
+            <button class="menu-toggle" id="menuToggle">&#9776;</button>
+            <nav>
+                <ul id="mainNav">
+                    <li><a href="/index.html">Dashboard</a></li>
+                    <li><a href="/courses.html" class="active">Courses</a></li>
+                    <li><a href="/results.html">Results</a></li>
+                    <li><a href="/curriculum.html">Curriculum</a></li>
+                    <li><a href="/finance.html">Finance</a></li>
+                    <li><a href="/applications.html">Applications</a></li>
+                    <li><a href="/Register">Student Registration</a></li>
+                    <li><a href="/Admin/Index">Admin Panel</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Course Management</h1>
+
+            <div class="card course-section">
+                <h2>Registered Courses (Current Semester)</h2>
+                <ul class="course-list-detail">
+                    <li>
+                        <strong>Compiler Design (CSI 411)</strong>
+                        <div class="details">
+                            <span>Credits: 3.0</span>
+                            <span>Section: A</span>
+                            <span>Faculty: Dr. A. Rahman</span>
+                            <span>Time: Sun, Tue 10:00 AM - 11:30 AM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Web Technologies (CSI 412)</strong>
+                        <div class="details">
+                            <span>Credits: 3.0</span>
+                            <span>Section: B</span>
+                            <span>Faculty: Prof. S. Khan</span>
+                            <span>Time: Mon, Wed 01:00 PM - 02:30 PM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Data Structures (CSI 310)</strong>
+                        <div class="details">
+                            <span>Credits: 3.0</span>
+                            <span>Section: C</span>
+                            <span>Faculty: Ms. L. Islam</span>
+                            <span>Time: Sun, Tue 03:00 PM - 04:30 PM</span>
+                        </div>
+                    </li>
+                </ul>
+                <p style="text-align: right; margin-top: 20px;">
+                    <a href="#" class="button secondary">View All Registered Courses</a>
+                </p>
+            </div>
+
+            <div class="card course-section">
+                <h2>Course Registration</h2>
+                <form class="course-registration-form">
+                    <div class="form-group">
+                        <label for="semester">Select Semester:</label>
+                        <select id="semester" name="semester">
+                            <option value="">-- Select Semester --</option>
+                            <option value="summer2025">Summer 2025</option>
+                            <option value="spring2025">Spring 2025</option>
+                            <option value="fall2024">Fall 2024</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="availableCourses">Available Courses:</label>
+                        <select id="availableCourses" name="availableCourses" multiple size="5">
+                            <option value="CSI 430">Artificial Intelligence (CSI 430) - 3.0 Credits</option>
+                            <option value="CSI 440">Machine Learning (CSI 440) - 3.0 Credits</option>
+                            <option value="CSI 450">Cyber Security (CSI 450) - 3.0 Credits</option>
+                            <option value="CSI 460">Cloud Computing (CSI 460) - 3.0 Credits</option>
+                            <option value="EEE 201">Basic Electrical Engineering (EEE 201) - 3.0 Credits</option>
+                        </select>
+                        <small style="color: #888; display: block; margin-top: 5px;">Hold Ctrl/Cmd to select multiple courses.</small>
+                    </div>
+                    <button type="submit" class="button">Register Selected Courses</button>
+                </form>
+            </div>
+
+            <div class="card course-section">
+                <h2>Course Drop Request</h2>
+                <form class="course-registration-form">
+                    <div class="form-group">
+                        <label for="dropCourse">Select Course to Drop:</label>
+                        <select id="dropCourse" name="dropCourse">
+                            <option value="">-- Select Course --</option>
+                            <option value="CSI 411">Compiler Design (CSI 411)</option>
+                            <option value="CSI 412">Web Technologies (CSI 412)</option>
+                            <option value="CSI 310">Data Structures (CSI 310)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Reason for Dropping:</label>
+                        <textarea id="reason" name="reason" rows="4" placeholder="Briefly explain why you want to drop this course..."></textarea>
+                    </div>
+                    <button type="submit" class="button secondary">Submit Drop Request</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AIUB Student Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

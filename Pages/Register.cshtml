@@ -1,0 +1,107 @@
+
+@page
+@model AIUBStudentPortal.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Student Registration"; // Sets the browser tab title
+}
+
+<div class="container">
+    <h1>Student Registration</h1>
+
+    <div class="card">
+        <h2>Register Your Profile</h2>
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="StudentProfile.FullName"></label>
+                <input asp-for="StudentProfile.FullName" class="form-control" />
+                <span asp-validation-for="StudentProfile.FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentProfile.StudentId"></label>
+                <input asp-for="StudentProfile.StudentId" class="form-control" />
+                <span asp-validation-for="StudentProfile.StudentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentProfile.Email"></label>
+                <input asp-for="StudentProfile.Email" class="form-control" />
+                <span asp-validation-for="StudentProfile.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentProfile.PhoneNumber"></label>
+                <input asp-for="StudentProfile.PhoneNumber" class="form-control" />
+                <span asp-validation-for="StudentProfile.PhoneNumber" class="text-danger"></span>
+            </div>
+            <button type="submit" class="button">Submit Registration</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<style>
+    /* Styles for the registration form, designed to match the overall frontend design */
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .card {
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        padding: 30px;
+    }
+    h1, h2 {
+        color: #004A8F; /* Primary AIUB Blue */
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: #004A8F;
+    }
+    .form-control {
+        width: calc(100% - 24px); /* Account for padding */
+        padding: 12px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .form-control:focus {
+        border-color: #004A8F;
+        box-shadow: 0 0 0 3px rgba(0, 74, 143, 0.1);
+        outline: none;
+    }
+    .button {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #004A8F; /* Primary AIUB Blue */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        border: none;
+        cursor: pointer;
+        width: 100%; /* Full width button */
+        margin-top: 10px;
+    }
+    .button:hover {
+        background-color: #003a70; /* Darker blue on hover */
+        transform: translateY(-1px);
+    }
+    .text-danger {
+        color: #dc3545; /* Red for validation errors */
+        font-size: 14px;
+        margin-top: 5px;
+        display: block;
+    }
+</style>

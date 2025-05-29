@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIUB Student Portal - Results</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/index.html" class="logo">AIUB<span>Portal</span></a>
+            <button class="menu-toggle" id="menuToggle">&#9776;</button>
+            <nav>
+                <ul id="mainNav">
+                    <li><a href="/index.html">Dashboard</a></li>
+                    <li><a href="/courses.html">Courses</a></li>
+                    <li><a href="/results.html" class="active">Results</a></li>
+                    <li><a href="/curriculum.html">Curriculum</a></li>
+                    <li><a href="/finance.html">Finance</a></li>
+                    <li><a href="/applications.html">Applications</a></li>
+                    <li><a href="/Register">Student Registration</a></li>
+                    <li><a href="/Admin/Index">Admin Panel</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Academic Results</h1>
+
+            <div class="card">
+                <h2>Result Overview</h2>
+                <form class="result-filter-form">
+                    <div class="form-group">
+                        <label for="resultSemester">Select Semester:</label>
+                        <select id="resultSemester" name="resultSemester">
+                            <option value="spring2025">Spring 2025</option>
+                            <option value="fall2024">Fall 2024</option>
+                            <option value="summer2024">Summer 2024</option>
+                            <option value="spring2024">Spring 2024</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="resultYear">Select Year:</label>
+                        <select id="resultYear" name="resultYear">
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="button">Filter Results</button>
+                </form>
+
+                <div class="result-summary">
+                    <div class="summary-item">
+                        <h3>Semester GPA</h3>
+                        <p>3.85</p>
+                    </div>
+                    <div class="summary-item">
+                        <h3>Total Credits</h3>
+                        <p>18.0</p>
+                    </div>
+                    <div class="summary-item">
+                        <h3>CGPA (Cumulative)</h3>
+                        <p>3.72</p>
+                    </div>
+                </div>
+
+                <table class="result-table">
+                    <thead>
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Title</th>
+                            <th>Credits</th>
+                            <th>Grade</th>
+                            <th>GPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CSI 411</td>
+                            <td>Compiler Design</td>
+                            <td>3.0</td>
+                            <td>A</td>
+                            <td>4.00</td>
+                        </tr>
+                        <tr>
+                            <td>CSI 412</td>
+                            <td>Web Technologies</td>
+                            <td>3.0</td>
+                            <td>A-</td>
+                            <td>3.70</td>
+                        </tr>
+                        <tr>
+                            <td>CSI 310</td>
+                            <td>Data Structures</td>
+                            <td>3.0</td>
+                            <td>B+</td>
+                            <td>3.30</td>
+                        </tr>
+                        <tr>
+                            <td>CSI 320</td>
+                            <td>Database Management Systems</td>
+                            <td>3.0</td>
+                            <td>A</td>
+                            <td>4.00</td>
+                        </tr>
+                        <tr>
+                            <td>CSI 420</td>
+                            <td>Software Engineering</td>
+                            <td>3.0</td>
+                            <td>A</td>
+                            <td>4.00</td>
+                        </tr>
+                        <tr>
+                            <td>GED 101</td>
+                            <td>English Reading & Writing</td>
+                            <td>3.0</td>
+                            <td>B</td>
+                            <td>3.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AIUB Student Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
